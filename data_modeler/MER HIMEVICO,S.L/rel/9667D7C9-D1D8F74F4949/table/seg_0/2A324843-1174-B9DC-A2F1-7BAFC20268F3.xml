@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A324843-1174-B9DC-A2F1-7BAFC20268F3" name="PARTE_VIAJE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>02975DCE-49A9-A0DC-39D3-AB3C0B2DE874</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_viaje" id="03D6A689-4D96-23C8-82D2-115BD18399D8">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>5D703065-9249-FA5C-3773-8AB6D40970F6</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSPORTISTA_TRANSPORTISTA_ID" id="DBE0F726-0423-FBB3-7F17-A5E899FF9AD7">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="530930F5-0A6A-845F-11D1-7BDC76D356A7" referredColumn="0DCF1064-C175-C8CA-D3EC-BE0829875095"/>
+</associations>
+</Column>
+<Column name="LOGISTICA_LOGISTICA_ID" id="F9DF2DEC-5279-9F6E-F6D4-78B6A7F0686A">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B94DA43B-FE85-413D-894E-B497762249E9" referredColumn="03709907-25C3-8DC4-BF39-E77A0EF9F7A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C57A8A06-04F6-965D-60E3-5D4D86E29C55" name="PARTE_VIAJE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>E18BEF0D-ABC1-260F-FC88-53843422C458</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03D6A689-4D96-23C8-82D2-115BD18399D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A3C1C5D-7571-D8B6-3F52-34E93A31C223" name="PARTE_VIAJE_TRANSPORTISTA_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>BB3EBED5-ECE3-7B38-2E86-9470170D9063</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBE0F726-0423-FBB3-7F17-A5E899FF9AD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7584BA93-C04B-9C33-85CB-F279AAF1FFF6" name="PARTE_VIAJE_LOGISTICA_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>BB3EBED5-ECE3-7B38-2E86-9470170D9063</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9DF2DEC-5279-9F6E-F6D4-78B6A7F0686A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E55E0DB2-1615-55FA-5C34-ACC9B8B734E9" name="PARTE_VIAJE_VEHICULO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>D094DE2F-206A-6E37-4AF5-6DD2B7D9556E</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E929541A-0ED8-B608-778E-105E081C2668" name="ADMINISTRATIVO_--&gt;_PARTE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADMINISTRATIVO_ADMINISTRATIVO_ID" id="0E708BDA-B813-4721-B710-5007E92FBC00">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56B76F5D-7A70-B83D-9C7A-636C1C8A5FF9" referredColumn="E2F86F4D-E9E4-599D-3691-550A315713CF"/>
+</associations>
+</Column>
+<Column name="PARTE_VIAJE_Id_viaje" id="C3FFE4FB-100D-3EA1-442E-E943F8D8C8A7">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1E4FD54-B9BD-4731-27B6-B11DF6E48DFD" referredColumn="03D6A689-4D96-23C8-82D2-115BD18399D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85F7FD2C-CE72-7548-8657-69F7429B6671" name="ADMINISTRATIVO_--&gt;_PARTE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E708BDA-B813-4721-B710-5007E92FBC00"/>
+<colUsage columnID="C3FFE4FB-100D-3EA1-442E-E943F8D8C8A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BCEDE6C-9CEE-F318-5A39-85882B08F78C" name="FK_ASS_11">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>7745617C-F409-B5DC-F6F4-5A6178E2C7A2</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E708BDA-B813-4721-B710-5007E92FBC00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D314788A-6A28-8E83-0CB4-417692F6A45C" name="FK_ASS_12">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>7745617C-F409-B5DC-F6F4-5A6178E2C7A2</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3FFE4FB-100D-3EA1-442E-E943F8D8C8A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

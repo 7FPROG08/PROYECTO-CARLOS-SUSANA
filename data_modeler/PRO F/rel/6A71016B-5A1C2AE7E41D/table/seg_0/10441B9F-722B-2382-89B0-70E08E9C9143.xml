@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10441B9F-722B-2382-89B0-70E08E9C9143" name="PARTE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>14E85842-C981-45BC-DF38-6BC839237BBD</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Parte" id="AE620932-DD48-A31E-3828-27F8D70AA96F">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>92F2A71B-13E7-8871-C5A0-8E64B87E11FB</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Km_principio" id="F68AC298-6C81-68CA-6B17-9ED9D9ECEDB6">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>947971A2-4C6E-DED8-03D0-9E6F25C0CE3C</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Km_final" id="2D1F211E-018F-91F8-E99C-540C69179B3C">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>EDF246F6-8AAF-BFA5-2032-FC932D9E83C2</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="646DC66F-B9C7-03C4-11CA-4F9DAB2F2287">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>8C4950D8-5B6B-B12C-A5AA-576A8536648C</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="382A9693-421D-3F53-5E33-C8A93C3DC625">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>1122617E-BE31-ED6B-8D00-7E2F322F185D</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto_gasoil" id="E14E48BE-2ECB-BA60-5BDD-D7EFF29D408A">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>D90962AB-B9CE-A8B6-60C6-F5BBA460204D</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto_autopista" id="4DF8C26D-E5B7-FBE5-0F9C-95308AEFA09C">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>8B3C1DF4-8A02-F35D-5656-4BA461D9A396</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto_dietas" id="E5D67005-2F30-0516-B1B6-2B3F4B044D4D">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>7B47CDD3-FFD2-7618-0464-EE93C6103957</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Otros_gastos" id="446BFEC6-D265-992B-5CE0-90683B10AFF1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>D426B4B9-6263-0927-6297-63E1666121DA</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Indidencias" id="81358902-7DEF-6420-BC0A-D6AEBFF083EA">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>748943E0-DB87-B0AF-6619-B100E4D99D78</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Validar" id="F68BD8F7-170F-F482-65EF-D3331764F031">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>FF082795-DD51-F4BF-BB92-95729832E478</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADOR_Id_Trabajador" id="9E0F1FEE-466E-6AB8-0C43-B9CF37204E1E">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>ACDB5887-E1A5-2434-7C0D-EBEB55B53813</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E52EF8B7-8618-F04D-5D36-4D957D1AF983" referredColumn="2329F802-0EB0-FEED-09FB-972313B67C08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E76EDEC-515A-77B5-5B9B-ECC1B31D42FF" name="PARTE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="AE620932-DD48-A31E-3828-27F8D70AA96F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04A0CE30-6549-AF7C-B0E6-586D389DCEBD" name="PARTE_Id_Parte_UN">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>84C6405F-DDBA-45C7-9F5C-664AF3529C1C</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE620932-DD48-A31E-3828-27F8D70AA96F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EAB9C7D-3ADF-1517-A9A5-AE7CA3A0AFF9" name="PARTE_TRABAJADOR_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>8B999529-A199-9A8B-6275-F7C98AA4349C</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E0F1FEE-466E-6AB8-0C43-B9CF37204E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

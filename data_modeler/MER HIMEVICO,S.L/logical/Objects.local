@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="7270190B-F6F1-33D3-4240-6F839B561951" name="ABIERTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6EFFB4C5-7AEA-E07B-D0AB-BE3C01C82844" name="ADMINISTRATIVO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="25A96166-32D6-9FDE-1248-6B5D2389973B" name="CENTRO TRABAJO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="65A8DBD1-F348-3392-34F2-50845815F5DA" name="CERRADO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E5568995-FAF8-48CF-2383-46285BACE5A5" name="LOGISTICA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="02975DCE-49A9-A0DC-39D3-AB3C0B2DE874" name="PARTE VIAJEv2" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9EB24E43-002B-FDC8-89F6-777B12B05168" name="TRABAJADOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C2725109-0325-4166-B0AD-F95936FF9918" name="USUARIO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CB60E8C6-EDA7-223C-C073-886B9AB07A41" name="VEHICULO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="316B4FD7-8C4B-1F0F-58E5-1B7B7E85BDEC" name="VIAJE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7745617C-F409-B5DC-F6F4-5A6178E2C7A2" name="ADMINISTRATIVO_--&amp;gt;_PARTE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F136298D-E358-06FA-2374-405D0F9AF466" name="CERRADO ADMINISTRATIVO FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BB3EBED5-ECE3-7B38-2E86-9470170D9063" name="PARTE VIAJEv2 LOGISTICA FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F92B5069-1E58-29CB-94DE-4867F7E365A5" name="TRABAJADORv2 CENTRO TRABAJO FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C4C2B80E-76E5-E754-A576-D1124BC6C331" name="USUARIO TRABAJADOR FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D094DE2F-206A-6E37-4AF5-6DD2B7D9556E" name="VEHICULO PARTE VIAJEv2 FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EE012B5F-8F96-DAAF-7422-791BE1858BB0" name="VIAJE VEHICULO FK" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="BD4EC225-7D0D-62D0-D028-D8A70333829A" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="F86615A9-963C-6E87-2DC5-FD5D67C6E6FE" name="Hierarchy_3" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="E0428710-F4A6-2BFA-D383-83FD33300965" name="Hierarchy_4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="48664CF5-3D76-F7F9-BD9A-46D52F5BC41D" name="Hierarchy_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

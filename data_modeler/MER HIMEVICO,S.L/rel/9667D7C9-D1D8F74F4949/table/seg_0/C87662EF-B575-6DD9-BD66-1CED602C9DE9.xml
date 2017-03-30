@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C87662EF-B575-6DD9-BD66-1CED602C9DE9" name="TRANSPORTISTA">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>E5568995-FAF8-48CF-2383-46285BACE5A5</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSPORTISTA_ID" id="0DCF1064-C175-C8CA-D3EC-BE0829875095">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15880178-D3F6-02B6-1B51-B62AFF96F19B" name="TRANSPORTISTA_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0DCF1064-C175-C8CA-D3EC-BE0829875095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37321983-6338-5277-30BB-50010D82159F" name="TRANSPORTISTA_TRABAJADORv1_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:28 UTC</createdTime>
+<generatorID>F86615A9-963C-6E87-2DC5-FD5D67C6E6FE</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

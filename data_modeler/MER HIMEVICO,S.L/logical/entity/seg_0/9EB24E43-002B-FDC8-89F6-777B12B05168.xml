@@ -1,0 +1,248 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EB24E43-002B-FDC8-89F6-777B12B05168" name="TRABAJADOR">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:34:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="38C2DAC4-3CB3-E7BC-213C-38E31E4FD587">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:35:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="C39313BC-C12B-254E-7E60-F78BE742FB0B">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:35:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido 1" id="49BE7895-EF0C-93D1-B295-A8DA5503DEFD">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:35:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido 2" id="B4F44715-5493-490A-B908-98FF12AA520F">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:35:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Calle" id="FEC751CC-485D-82B4-4A02-3344C96CD7C2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:35:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Portal" id="4A263F4A-5BDE-314C-6A42-1FBFE2A5ECD2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:35:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mano" id="28C24AAD-4A0C-677A-42D5-6EDA966CEE48">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:36:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Piso" id="3810C32C-3FD8-72CF-52BE-15539A695539">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:36:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tel empresa" id="555AAF38-6D98-B6E7-AA2F-7E65D3BD4394">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:36:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tel personal" id="53F6447E-E72F-546E-3456-09FBFCA8610C">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:37:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="CFBD36D7-8365-927B-C933-B6994EC1A980">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:37:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO ID Usuario" id="378950B3-EFDF-93C8-239E-E0E14FEEC2E6">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:23:42 UTC</createdTime>
+<generatorID>C4C2B80E-76E5-E754-A576-D1124BC6C331</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<referedAttribute>BFE525D9-B830-60A5-6DDA-D23E454B5D9E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENTRO TRABAJO ID Centro1" id="7544323B-9585-02EE-E1AD-C2BB1F486093">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:30:27 UTC</createdTime>
+<generatorID>F92B5069-1E58-29CB-94DE-4867F7E365A5</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<referedAttribute>132EEF3F-0C68-DA8F-D764-FED4851F216A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENTRO TRABAJO ID Centro" id="C5A299AA-35C5-B08F-02FA-953C22634845">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:43 UTC</createdTime>
+<generatorID>F92B5069-1E58-29CB-94DE-4867F7E365A5</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<referedAttribute>132EEF3F-0C68-DA8F-D764-FED4851F216A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENTRO TRABAJO ID Centro" id="F5A8B1BF-E5D1-2322-E169-EDF9E89EB755">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:09 UTC</createdTime>
+<generatorID>F92B5069-1E58-29CB-94DE-4867F7E365A5</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<referedAttribute>132EEF3F-0C68-DA8F-D764-FED4851F216A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO ID Usuario1" id="B748BB5E-46E8-0877-CA4C-D8C3AE9AAD76">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:09 UTC</createdTime>
+<generatorID>C4C2B80E-76E5-E754-A576-D1124BC6C331</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<referedAttribute>BFE525D9-B830-60A5-6DDA-D23E454B5D9E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha nacimiento" id="C4132914-0E4E-99DD-2ACB-FFC4C4FCD364">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:37:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C65311C1-36C5-E6C2-9BAE-537B48657E33" name="TRABAJADOR PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:34:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="904CF8AD-7EB7-E0F9-DD4D-E74887AF1B66" name="VIAJE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>FB94301E-F813-F48E-FE01-5D2B7718285E</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Viaje" id="FFE14F7C-B21A-05A8-0E7D-EAE811A24E32">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>5A8E6BB0-2443-EAE3-0003-87F9FBFB3B00</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_salida" id="56448481-AA74-3257-1AFB-E6BF9D04A3FD">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>94D8AD2F-B7E5-43D1-AA16-E0E6F843333E</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_llegada" id="C8CC8DFE-B59E-CE9E-A3C7-408F8773BCF4">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>2ECA9C9C-2586-A429-028D-96185109C326</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTE_Id_Parte" id="149DEDAF-7AD6-DD8F-7F55-0E88ED6FB420">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>E6928D1D-09B0-1AE7-91E9-60A216F1A4A5</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFDFE67F-1581-1B42-AF6D-DFEF6378B1AF" referredColumn="AE620932-DD48-A31E-3828-27F8D70AA96F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15F5E3C8-78A0-E7F6-DDC6-13983C46701D" name="VIAJE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>7FF39D61-A2B2-FE6E-14B4-941A749154FC</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFE14F7C-B21A-05A8-0E7D-EAE811A24E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8592F71C-2C31-AAC4-97FA-3D972FDC3E81" name="VIAJE_PARTE_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:36 UTC</createdTime>
+<generatorID>119F44CD-0576-4577-26C0-808D210CC5B2</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149DEDAF-7AD6-DD8F-7F55-0E88ED6FB420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

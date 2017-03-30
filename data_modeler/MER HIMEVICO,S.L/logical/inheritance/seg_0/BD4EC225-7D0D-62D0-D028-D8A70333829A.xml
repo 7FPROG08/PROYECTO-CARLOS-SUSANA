@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="BD4EC225-7D0D-62D0-D028-D8A70333829A">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 16:53:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>9EB24E43-002B-FDC8-89F6-777B12B05168</sourceEntity>
+<targetEntity>6EFFB4C5-7AEA-E07B-D0AB-BE3C01C82844</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

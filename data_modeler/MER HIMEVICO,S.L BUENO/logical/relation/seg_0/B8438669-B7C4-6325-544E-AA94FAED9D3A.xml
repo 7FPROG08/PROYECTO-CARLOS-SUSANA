@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTE --&gt; VEHICULO" directorySegmentName="seg_0" id="B8438669-B7C4-6325-544E-AA94FAED9D3A">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 19:45:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7A248E49-E4A9-5043-D364-EE24D5926FD0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FFB80F0-B63E-6809-D7A0-0B7773F7AD71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

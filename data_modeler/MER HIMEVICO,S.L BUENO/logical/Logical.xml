@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="698740C9-9322-144D-DE4A-EF41CDF4799F" mainViewID="2A912701-1685-56FA-69FA-00EEC95B0CAD">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:09:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

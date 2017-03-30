@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VIAJE VEHICULO FK" directorySegmentName="seg_0" id="EE012B5F-8F96-DAAF-7422-791BE1858BB0">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:25:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<sourcePk>A4F59DE4-A2F0-808F-2046-3C1E730246C1</sourcePk>
+<targetPk>3518142C-C439-8241-FEE3-4A2D3A7317A5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>316B4FD7-8C4B-1F0F-58E5-1B7B7E85BDEC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CB60E8C6-EDA7-223C-C073-886B9AB07A41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

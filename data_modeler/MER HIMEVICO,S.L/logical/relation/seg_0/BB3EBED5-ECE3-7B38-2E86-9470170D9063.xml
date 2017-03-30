@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTE VIAJEv2 LOGISTICA FK" directorySegmentName="seg_0" id="BB3EBED5-ECE3-7B38-2E86-9470170D9063">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:16:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<sourcePk>C65311C1-36C5-E6C2-9BAE-537B48657E33</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5568995-FAF8-48CF-2383-46285BACE5A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02975DCE-49A9-A0DC-39D3-AB3C0B2DE874</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

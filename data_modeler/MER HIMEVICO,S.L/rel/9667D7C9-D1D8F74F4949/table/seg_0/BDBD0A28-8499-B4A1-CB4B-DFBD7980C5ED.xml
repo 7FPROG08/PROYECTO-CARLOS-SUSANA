@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDBD0A28-8499-B4A1-CB4B-DFBD7980C5ED" name="LOGISTICA">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>E5568995-FAF8-48CF-2383-46285BACE5A5</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOGISTICA_ID" id="03709907-25C3-8DC4-BF39-E77A0EF9F7A2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Usuario" id="351F58F6-E321-2AE3-BD37-55F47C8A2794">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>3E0C902C-F206-B643-005B-D4BF05F15300</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datos_de_vehiculo" id="21944824-EA03-115E-FB9D-059083285927">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>52A880D0-F041-34B3-7050-D2E6B387EC64</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55AB466A-1E3F-B6AD-A275-B27ED219E5B0" name="LOGISTICA_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="03709907-25C3-8DC4-BF39-E77A0EF9F7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC982A0D-B4BA-7391-088D-D4CFD68CADCF" name="LOGISTICA_Usuario_UN">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>C65311C1-36C5-E6C2-9BAE-537B48657E33</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="351F58F6-E321-2AE3-BD37-55F47C8A2794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

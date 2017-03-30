@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43CFF5DA-D206-318F-7BCF-229ADBCA4426" name="ABIERTO">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>7270190B-F6F1-33D3-4240-6F839B561951</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_viaje" id="5CA2CE2C-0977-090B-8877-BC626CC14363">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>5D703065-9249-FA5C-3773-8AB6D40970F6</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A561A399-8A24-4D81-1790-C581083BB751" referredColumn="7CBF1E05-B86F-C4A3-F718-D881EF45B82F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEDAC884-B680-4996-D854-97416A6D005B" name="ABIERTO_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>E18BEF0D-ABC1-260F-FC88-53843422C458</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA2CE2C-0977-090B-8877-BC626CC14363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37E50CF0-7B0B-B5C2-79EF-D9A9DAC695FC" name="ABIERTO_PARTE_VIAJEv1_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>E0428710-F4A6-2BFA-D383-83FD33300965</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA2CE2C-0977-090B-8877-BC626CC14363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="3FB9C690-8098-C406-6FB0-659B4E2820F5" mainViewID="6B98DD7E-A32A-CB82-3BD8-D8C7A516560B">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:09:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

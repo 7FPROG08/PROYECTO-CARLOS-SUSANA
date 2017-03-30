@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22321982-9690-FBDC-E898-C26F9B33DF18" name="TRABAJADOR">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>9EB24E43-002B-FDC8-89F6-777B12B05168</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario" id="03AB66FE-9B6D-F0F0-2814-54FD780FCBFE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>3E0C902C-F206-B643-005B-D4BF05F15300</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO_TRABAJO_ID_Centro" id="CBFE11A8-F8D1-E541-B96C-AF7D37F65775">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1196506-4235-830A-497F-5D3A352DAD6A" referredColumn="BB4197CE-89A2-8359-A752-9D5A75B0825A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E49A484-83D5-258D-296E-215DE3343523" name="TRABAJADOR_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>C65311C1-36C5-E6C2-9BAE-537B48657E33</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03AB66FE-9B6D-F0F0-2814-54FD780FCBFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DA029AD-B856-AA5A-E22A-600DD28963D5" name="TRABAJADOR_CENTRO_TRABAJO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:28 UTC</createdTime>
+<generatorID>F92B5069-1E58-29CB-94DE-4867F7E365A5</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFE11A8-F8D1-E541-B96C-AF7D37F65775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8BF9DD7-4CD2-E19A-6D23-4FAA7B1DC804" name="TRABAJADOR_USUARIO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>C4C2B80E-76E5-E754-A576-D1124BC6C331</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="80184710-D265-C7E2-7A0B-B38D1C9D056F" name="TRABAJADOR_USUARIO_FKv1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>C4C2B80E-76E5-E754-A576-D1124BC6C331</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

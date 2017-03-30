@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1D7F918-AEAA-425D-5BEF-99F88494FEA6" name="CENTRO">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:09:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Centro" id="234F5359-BD46-BDEA-9846-677B67A3BD20">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:10:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="1F551FE6-A891-3DE8-EA31-2F3266D14724">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:10:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Calle" id="1A1C6317-19D8-73C4-25E4-742A35EE96F6">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:10:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="8B9C9153-A3EE-2EEE-E34D-69137A70626D">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:10:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo Postal" id="38EEC1EA-C87F-397B-A290-169396E9C2A2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:11:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="68D963D0-C41E-E262-5465-5A44DEB3AF40">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:11:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Provincia" id="E71DA375-43DC-9069-6F94-5635CF57DFF3">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:12:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="1FDA292E-C22B-781F-1E20-18D7F35F88A2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:12:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="593B49F9-6C24-3688-0E3D-7D03870B3E3D" name="CENTRO PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 18:10:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L BUENO</ownerDesignName>
+<engineerTo>
+<item key="3FB9C690-8098-C406-6FB0-659B4E2820F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>234F5359-BD46-BDEA-9846-677B67A3BD20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

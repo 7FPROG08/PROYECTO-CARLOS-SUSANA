@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED3F1467-60FF-FDA4-4DCF-CBC5497895B3" name="CERRADO">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>65A8DBD1-F348-3392-34F2-50845815F5DA</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_viaje" id="6FD1DDEE-4006-8C4B-1F45-FD24B15EBD2B">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>5D703065-9249-FA5C-3773-8AB6D40970F6</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6C402EC-B946-5DB8-5539-0B15594EB9BE" referredColumn="7CBF1E05-B86F-C4A3-F718-D881EF45B82F"/>
+</associations>
+</Column>
+<Column name="Fecha_cerrado" id="E3B114E2-1595-E6C4-45D1-72B0DECFA4AB">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>C01C1EA4-008D-18E4-DEC2-EAD8331044CB</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Validacion" id="9D8B7C80-A5F8-0A0F-B666-CFE2C7A92BDC">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>9F15B5CE-3327-4E2C-C195-653993798812</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMINISTRATIVO_ADMINISTRATIVO_ID" id="BBFC3FC6-73D9-665D-F57B-62ACFBD554C7">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8CC099A-7E45-023E-A1DD-3817783EAFC7" referredColumn="E2F86F4D-E9E4-599D-3691-550A315713CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB6C1CDF-04F0-E2F0-6798-9ECA3F4C830F" name="CERRADO_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>E18BEF0D-ABC1-260F-FC88-53843422C458</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FD1DDEE-4006-8C4B-1F45-FD24B15EBD2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34196891-0007-DE52-164D-5EBF72AD6B99" name="CERRADO_PARTE_VIAJEv1_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:28 UTC</createdTime>
+<generatorID>48664CF5-3D76-F7F9-BD9A-46D52F5BC41D</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FD1DDEE-4006-8C4B-1F45-FD24B15EBD2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8A93006-46E0-4D6D-3F78-8423CB4A8C7C" name="CERRADO_ADMINISTRATIVO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>F136298D-E358-06FA-2374-405D0F9AF466</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBFC3FC6-73D9-665D-F57B-62ACFBD554C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

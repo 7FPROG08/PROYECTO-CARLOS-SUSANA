@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09A79E3A-B115-022B-DB02-8F5E882F635F" name="Relation_1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CENTRO_TRABAJO_Nombre" id="DF50EC5F-771B-3EF2-DDC5-84613DDFC0B6">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADOR_Usuario" id="6975E404-A65E-BF6F-4C91-EE9452C03535">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3584B452-6B7D-C8E4-7ABA-A2C5F69F2EBC" referredColumn="03AB66FE-9B6D-F0F0-2814-54FD780FCBFE"/>
+</associations>
+</Column>
+<Column name="ID_Centro" id="CCFF12FD-66A1-D246-D974-D55BA9A9F179">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>3CED27FA-A760-27C6-A619-701CD72543EE</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF5F849C-462A-5A2E-8A35-692472EE9412" referredColumn="BB4197CE-89A2-8359-A752-9D5A75B0825A"/>
+</associations>
+</Column>
+<Column name="Usuario" id="813BC705-037E-48E9-A71B-461D015491F1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>72250A18-CBEC-D13A-35FE-1A565DAD414F</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A21ECC7-A579-A87E-06E5-CAC0DB8A8931" name="Relation_1_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCFF12FD-66A1-D246-D974-D55BA9A9F179"/>
+<colUsage columnID="813BC705-037E-48E9-A71B-461D015491F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4023C77-957D-951B-9FB7-47FC7EB31AC3" name="Relation_1_CENTRO_TRABAJO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>1B7DD065-6C4C-6A11-8BEA-35EF7A190F95</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCFF12FD-66A1-D246-D974-D55BA9A9F179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF482D04-6659-1A71-3F09-88F7453F0C91" name="Relation_1_TRABAJADOR_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>1B7DD065-6C4C-6A11-8BEA-35EF7A190F95</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6975E404-A65E-BF6F-4C91-EE9452C03535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

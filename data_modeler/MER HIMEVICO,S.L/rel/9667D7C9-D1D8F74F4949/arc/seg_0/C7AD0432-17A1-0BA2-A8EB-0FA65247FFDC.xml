@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="C7AD0432-17A1-0BA2-A8EB-0FA65247FFDC" name="FKArc_2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>BA835C80-D8AD-2AA5-60F1-0C06AE25CF2A</table>
+<fkeys>
+<fkeyID>A309D540-BEB2-105B-9BE0-7491335B0BC2</fkeyID>
+<fkeyID>649ABB2B-1077-5AEE-D502-F3C7410D5B1B</fkeyID>
+</fkeys>
+</FKArc>

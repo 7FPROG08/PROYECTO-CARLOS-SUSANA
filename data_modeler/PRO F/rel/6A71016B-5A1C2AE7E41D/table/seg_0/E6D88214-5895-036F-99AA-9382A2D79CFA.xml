@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D88214-5895-036F-99AA-9382A2D79CFA" name="VEHICULO">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>A90A5257-0922-4B66-EDC6-9BE094B50D5F</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Vehiculo" id="D351D6DE-7B2A-6C29-B4BB-CF71E164188E">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>9700FF78-1D35-537F-F85E-FF6244A3FA2A</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="AE783383-F09B-0E3E-6E86-6526A6AE35AE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>D32AAB77-8DC7-28FC-412B-DE9FE893B8DB</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula" id="3FC3F932-3FD0-556C-9A19-0C976D163B0E">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>787752D3-1BDE-5AB5-8F9F-1291B9CA4545</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="029E1459-F205-F387-DDCB-5AFE5E022EB0">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>CF998974-5344-03C7-9BA9-02A47A27D34E</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="336CB76C-B412-87D3-C923-91B10A0A61C5" name="VEHICULO_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>79FAE2BE-5392-DE00-E67C-E99D8C0EFF4D</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D351D6DE-7B2A-6C29-B4BB-CF71E164188E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

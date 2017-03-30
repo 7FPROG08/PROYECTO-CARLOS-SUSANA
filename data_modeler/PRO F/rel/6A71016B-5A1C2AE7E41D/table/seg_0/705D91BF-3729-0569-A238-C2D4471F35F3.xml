@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="705D91BF-3729-0569-A238-C2D4471F35F3" name="TRABAJADOR">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>1A88A047-8498-39EA-670E-2F0DD5960DA5</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Trabajador" id="2329F802-0EB0-FEED-09FB-972313B67C08">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>1FFB6ECC-784E-C2AB-BE59-154EFA7DD7A0</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario" id="112CA44D-3C67-62BF-21E2-83DEB74730FE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>5EC5E900-9D0E-BBBE-F954-DA764292E9D1</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrasena" id="5AFE74FA-8D2E-CB33-9C0D-C6C76A23A662">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>6C2AE8C0-8FD2-9165-EF56-64ABBCCFD49B</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="ECC0949F-9CDA-64DF-59BC-A56DD33981A7">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>7C2616A7-8943-DA36-DD98-DC201AA95031</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="AC6FEC4C-19BF-A1F4-1610-EED45B084B93">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>60FA97CC-69DC-1B24-AE72-502F0B77E628</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_1" id="BF6581B3-7432-9D2A-A62D-CA2DE79B1796">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>FA71B0F7-C9EB-50EC-13D8-4B34BEC4FC94</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_2" id="D6C04512-324A-C51A-B82E-DC18D522FD45">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>82A79C49-A6D1-D5B0-A9A0-C3FAF4C2D357</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="DFDB4DC3-C67A-5E9C-8AD6-DF37F78F1E08">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>BA13C821-ACDB-7B65-46E2-ECB46C41FED7</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Portal" id="7976AF19-9BB6-3A08-8209-8931545ABD79">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>5A9EDC3B-B7CA-76FC-580C-C1B72E0C2954</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Piso" id="799E90C9-48A0-B9A0-4ABB-4FC10663B5DE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>B2C3FD9F-B5B6-8D70-5319-F5F6E0F67BF0</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mano" id="BE3EF567-2271-34D4-E0BD-69E89790B922">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>EED3227C-93CF-1E65-7B14-0426F513FAB1</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="4E9A2EFE-B6D0-5DA9-4F61-AADF919D58D1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>B08519CE-2C0A-3DB8-BCA4-7242CE36E82B</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>77</dataTypePrecision>
+<ownDataTypeParameters>,77,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avisos" id="61290E00-BD42-30BA-D824-A4618956C136">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>73CA5F3F-E603-616B-A87A-C728BAB2D3B0</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO_Id_Centro" id="9702CB8F-3810-6189-FED7-136CE4B398D1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>F5FE6ACC-F4A6-BCA9-2C6B-3709B65ACEBA</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8CC68C5-03F2-4AC4-79EA-2A832CB43ED7" referredColumn="863354C5-A8EE-63A3-3FCA-C7D045FAA01E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="667AD726-C1D6-BD84-61EC-256E4B4877BE" name="TRABAJADOR_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>2F790F4E-561D-AAEE-F664-2F7B41A7BAE2</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2329F802-0EB0-FEED-09FB-972313B67C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7E95F7D-EF18-3E36-457A-88F6E9B55FFD" name="TRABAJADOR_CENTRO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:35 UTC</createdTime>
+<generatorID>3D10DD0D-F8D2-DA1E-9CA5-8F2543F9DD28</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9702CB8F-3810-6189-FED7-136CE4B398D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

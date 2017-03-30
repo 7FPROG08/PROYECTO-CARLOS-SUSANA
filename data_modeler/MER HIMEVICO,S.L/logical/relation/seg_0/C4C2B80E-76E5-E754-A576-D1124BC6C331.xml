@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USUARIO TRABAJADOR FK" directorySegmentName="seg_0" id="C4C2B80E-76E5-E754-A576-D1124BC6C331">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:23:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<engineerTo>
+<item key="7BB0ED99-7BBF-E9EC-90E5-1BBB58D824EC" value="true"/>
+<item key="9667D7C9-252E-235B-3ABC-D1D8F74F4949" value="true"/>
+</engineerTo>
+<sourcePk>C65311C1-36C5-E6C2-9BAE-537B48657E33</sourcePk>
+<targetPk>B75FBBFC-B4E0-F8DB-F83B-A6B9019C987D</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9EB24E43-002B-FDC8-89F6-777B12B05168</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C2725109-0325-4166-B0AD-F95936FF9918</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

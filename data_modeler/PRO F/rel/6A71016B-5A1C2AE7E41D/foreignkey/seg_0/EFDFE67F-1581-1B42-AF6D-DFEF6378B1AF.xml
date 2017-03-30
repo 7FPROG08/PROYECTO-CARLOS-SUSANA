@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFDFE67F-1581-1B42-AF6D-DFEF6378B1AF" containerWithKeyObject="904CF8AD-7EB7-E0F9-DD4D-E74887AF1B66" localFKIndex="8592F71C-2C31-AAC4-97FA-3D972FDC3E81" name="VIAJE_PARTE_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 17:35:36 UTC</createdTime>
+<generatorID>119F44CD-0576-4577-26C0-808D210CC5B2</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10441B9F-722B-2382-89B0-70E08E9C9143</referredTableID>
+<keyObject>04A0CE30-6549-AF7C-B0E6-586D389DCEBD</keyObject>
+<referredKeyID>04A0CE30-6549-AF7C-B0E6-586D389DCEBD</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

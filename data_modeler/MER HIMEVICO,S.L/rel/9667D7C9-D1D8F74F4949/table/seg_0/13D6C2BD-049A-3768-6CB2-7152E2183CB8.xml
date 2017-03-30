@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D6C2BD-049A-3768-6CB2-7152E2183CB8" name="VIAJE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>316B4FD7-8C4B-1F0F-58E5-1B7B7E85BDEC</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Albaran" id="F47C442E-3886-AE75-A366-787088ED91AB">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>7EF21846-E885-D82F-6D75-55B9FE11973C</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vehiculo" id="38923105-B0EA-BA3A-A726-D28F60D1033C">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>ED3CEB72-801E-8D15-5664-C8CB0D6E7170</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_inicio" id="28CDDC02-6B3D-889D-BB3B-54AFAFA96AB4">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>4724EE22-9A58-74B3-ADD1-5B311E82580E</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_fin" id="447F6762-2199-44FA-F16F-0B4ECD40F60A">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>A847B5A3-35F7-1C8E-ABC1-5A44D2E6C492</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_viaje" id="E1E1AC22-4E74-2B58-9CF1-8A38A76A6D0D">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>3D10760A-279A-410C-6CEC-FD9F4FAECC97</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_inicio2" id="09487E73-1990-2FF1-93F1-23188A11F408">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>BA264410-B667-C607-6AC2-99593812C447</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_Final" id="81E53128-F8FA-0C5A-A51C-37E43A8AD242">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:13:27 UTC</createdTime>
+<generatorID>2E45AE38-C620-5C3A-37F1-93254D0E849C</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICULO_ID_Vehiculo" id="99EDA6DD-2D19-130F-0EC4-6C77449099EF">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>1B613FBB-AD9B-9152-B1B5-D88A94E7B7B3</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61885FBD-840F-D163-5131-DF24959EE4F3" referredColumn="CBC92B2F-33A8-5C8E-A097-94074C9D92F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="819E9E36-9B99-5EE6-C6A1-20F01C491379" name="VIAJE_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-28 19:44:09 UTC</createdTime>
+<generatorID>A4F59DE4-A2F0-808F-2046-3C1E730246C1</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E1AC22-4E74-2B58-9CF1-8A38A76A6D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EF86233-783B-CD8E-D390-39EB53F1BDB7" name="VIAJE__IDX">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:53:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EE012B5F-8F96-DAAF-7422-791BE1858BB0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="99EDA6DD-2D19-130F-0EC4-6C77449099EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF60F49A-B5E9-9AC3-D023-C2ADE7049822" name="VIAJE_VEHICULO_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>EE012B5F-8F96-DAAF-7422-791BE1858BB0</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99EDA6DD-2D19-130F-0EC4-6C77449099EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

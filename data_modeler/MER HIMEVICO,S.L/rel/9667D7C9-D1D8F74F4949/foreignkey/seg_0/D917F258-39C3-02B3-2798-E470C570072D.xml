@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D917F258-39C3-02B3-2798-E470C570072D" containerWithKeyObject="488588B3-5D66-5F3A-E8AE-AF551D2ABFF5" localFKIndex="1E0062F1-6E73-D6B6-710C-8C557BBB8E15" name="PARTE_VIAJEv2_TRANSPORTISTA_FK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-29 17:52:07 UTC</createdTime>
+<generatorID>BB3EBED5-ECE3-7B38-2E86-9470170D9063</generatorID>
+<ownerDesignName>MER HIMEVICO,S.L.</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C87662EF-B575-6DD9-BD66-1CED602C9DE9</referredTableID>
+<keyObject>15880178-D3F6-02B6-1B51-B62AFF96F19B</keyObject>
+<referredKeyID>15880178-D3F6-02B6-1B51-B62AFF96F19B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

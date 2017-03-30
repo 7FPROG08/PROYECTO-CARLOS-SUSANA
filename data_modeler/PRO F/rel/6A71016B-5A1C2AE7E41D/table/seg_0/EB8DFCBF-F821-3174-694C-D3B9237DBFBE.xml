@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB8DFCBF-F821-3174-694C-D3B9237DBFBE" name="VEHICULO_--&gt;_TRABAJADOR">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 18:26:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRABAJADOR_Id_Trabajador" id="5DCF65F9-AB15-C501-3779-A2013AC699E0">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 18:26:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5918966D-1FB9-0805-96DB-7D381BA39F94" referredColumn="2329F802-0EB0-FEED-09FB-972313B67C08"/>
+</associations>
+</Column>
+<Column name="VEHICULO_Id_Vehiculo" id="30F7447C-D4F2-8A7F-30CA-BB0EA8802BD9">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 18:26:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C74B3B5-A2C4-3851-5F0E-23F574C86EC2" referredColumn="D351D6DE-7B2A-6C29-B4BB-CF71E164188E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B56A390D-8AE0-B5F7-EA43-5C5F606FF993" name="VEHICULO_--&gt;_TRABAJADOR_PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 18:26:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCF65F9-AB15-C501-3779-A2013AC699E0"/>
+<colUsage columnID="30F7447C-D4F2-8A7F-30CA-BB0EA8802BD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78BB55AE-B1BC-7413-68D8-5EE7223AC1B1" name="FK_ASS_1">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 18:26:13 UTC</createdTime>
+<generatorID>1CDF333E-5D3C-FD2D-7FB3-3DECC2CD14A1</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCF65F9-AB15-C501-3779-A2013AC699E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21DBBC6E-B5DF-9E5F-0F83-722A0F0A2DDC" name="FK_ASS_2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 18:26:13 UTC</createdTime>
+<generatorID>1CDF333E-5D3C-FD2D-7FB3-3DECC2CD14A1</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30F7447C-D4F2-8A7F-30CA-BB0EA8802BD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
