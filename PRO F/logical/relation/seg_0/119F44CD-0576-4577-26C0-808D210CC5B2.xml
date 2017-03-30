@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="119F44CD-0576-4577-26C0-808D210CC5B2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:18:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<sourcePk>84C6405F-DDBA-45C7-9F5C-664AF3529C1C</sourcePk>
+<targetPk>7FF39D61-A2B2-FE6E-14B4-941A749154FC</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>14E85842-C981-45BC-DF38-6BC839237BBD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FB94301E-F813-F48E-FE01-5D2B7718285E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
