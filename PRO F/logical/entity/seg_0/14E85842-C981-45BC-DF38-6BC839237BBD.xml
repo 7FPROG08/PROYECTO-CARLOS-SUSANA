@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14E85842-C981-45BC-DF38-6BC839237BBD" name="PARTE">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:06:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Parte" id="92F2A71B-13E7-8871-C5A0-8E64B87E11FB">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:06:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Km principio" id="947971A2-4C6E-DED8-03D0-9E6F25C0CE3C">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:07:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Km final" id="EDF246F6-8AAF-BFA5-2032-FC932D9E83C2">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:07:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="8C4950D8-5B6B-B12C-A5AA-576A8536648C">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="1122617E-BE31-ED6B-8D00-7E2F322F185D">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gasto gasoil" id="D90962AB-B9CE-A8B6-60C6-F5BBA460204D">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gasto autopista" id="8B3C1DF4-8A02-F35D-5656-4BA461D9A396">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gasto dietas" id="7B47CDD3-FFD2-7618-0464-EE93C6103957">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Otros gastos" id="D426B4B9-6263-0927-6297-63E1666121DA">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Indidencias" id="748943E0-DB87-B0AF-6619-B100E4D99D78">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:08:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Validar" id="FF082795-DD51-F4BF-BB92-95729832E478">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:09:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Trabajador" id="3197F328-AE25-B938-D9FC-531627A399BC">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:16:37 UTC</createdTime>
+<generatorID>8B999529-A199-9A8B-6275-F7C98AA4349C</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<referedAttribute>1FFB6ECC-784E-C2AB-BE59-154EFA7DD7A0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Viaje" id="EC60644D-BE6F-271E-CB5E-6ED6025A8D70">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:18:45 UTC</createdTime>
+<generatorID>119F44CD-0576-4577-26C0-808D210CC5B2</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<referedAttribute>5A8E6BB0-2443-EAE3-0003-87F9FBFB3B00</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84C6405F-DDBA-45C7-9F5C-664AF3529C1C" name="PARTE PK">
+<createdBy>acer</createdBy>
+<createdTime>2017-03-30 06:07:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PRO F</ownerDesignName>
+<engineerTo>
+<item key="6A71016B-271C-46C4-ED10-5A1C2AE7E41D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92F2A71B-13E7-8871-C5A0-8E64B87E11FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
